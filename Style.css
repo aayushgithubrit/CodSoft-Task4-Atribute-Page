@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    min-height: 100vh;
+    background-color: #e5e5fd;
+    border: 5px solid #1d1e4c;
+}
+.content{
+max-width: 900px;
+margin: 0 auto;
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "made-von-voyage";
+    font-weight: 100;
+    align-items: flex-end;
+
+}
+.top_section h1{
+        /* font-weight: bold; */
+        font-size: 50px;
+    color: #1d1e4c;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+.top_section h4{
+    color: #1d1e4c;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: end;
+    font-size: 30px;
+    font-weight: 100;
+
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.image_container img{
+    /* object-fit: cover; */
+    width: 300px;
+    height: 300px;
+    transition: all ease 1s;
+    
+    
+}
+.image_container:hover img{
+    scale: 1.2;
+}
+.about{
+    margin-top: 70px;
+}
+.about h1{
+    color: #1d1e4c;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 70px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: made-von-voyage;
+
+}
+.about p{
+    margin-left: 50px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+}
+.Biographies {
+margin-top: 50px;    
+}
+.Biographies h3{
+    color: #1d1e4c;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: made-von-voyage;
+}
+.Biographies ul{
+    line-height: 25px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.link{
+    text-align: end;
+    font-weight: 600;
+    margin-bottom: 30px;  
+}
